@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lioheart integrated</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi! I'm <span> Ada </span><br>Ajiebi From Nigeria</h1>
+            </div>
+        </div>
+    </div>
+                            <!-- About Section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>LionHeart & Associates is an IT services provider and general services company with head at office Kaduna State Nigeria..
+                        We are committed to helping you build scalable projects that achieve specific, measurable results through powerful technologies and processes. Our team seamlessly collaborates to create flawless solutions and tech designs that will provide engaging and great user experiences.
+                        Whatever business you’re in, trust us to conceptualize and execute tried and true digital marketing strategies that will convert your target clientele from browsers to buyers. When you work with us, you’ll find that we bring our core values of courage, focus, quality, and transparency to every project we complete.
+                        Our primary aim is to provide superior client centered solutions that are tailored to the Nigerian environment and customised to suit your organisation's corporate plans.
+                        </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Mission</p>
+                    <p class="tab-links" onclick="opentab('education')">Vission</p>
+                    </div>
+                    <div class="tab-contents activ-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br> Web App interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                            
+                        </ul>
+                    </div>
+                    <!-- mission -->
+                    <div class="tab-contents" id="experience"> 
+                     <p>
+                        To provide high quality services that combines Performance
+                        with value pricing while establishing a successful relationship
+                        with our clients.
+                     </p>
+                    </div>
+                    <div class="tab-contents" id="education">
+                    <p>
+                        We seek to provide services that will place our clients on the
+                        pedestal of excellence while achieving our goals and
+                        objectives.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                             <!-- services -->
+          <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">Our services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>Human Resources Management System</h2>
+                            <p>
+                                LionHeart HRMS software also known as LionHeart Integrated Records Management System (LIREMS) is a robust
+                                and powerfully built system for small and large organizations. 
+                                It is the HRMS software solution that is employee-centric. Unlike traditional HRMS solutions, it is a modern new
+                                generation platform focused on user experience and simplifying complex workflows through its Integrated
+                                modules. It's a one stop gap for database management solution, document management and employee
+                                performance tools and payroll.
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop"></i>
+                            <h2>Software Development</h2>
+                            <p>
+                                We design software specifically tailored to meet your needs. Our highly knowledgeable web development team
+                                will take care of every component of your business so that it is always an effortless experience for end-users. 
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Web Application</h2>
+                            <p>
+                                We are an innovative web design company with emphasis on give you creative end user experience and interface.
+                                Our expert technical team understands what it takes to succeed in today's online business world and delivers
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Mobile Application</h2>
+                            <p>
+                                The world is moving towards the extensive use of mobile applications. Our team’s experience ranges from mobile
+                                app UX/UI design and development to optimization for Employee Self Service solution..
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-app-store"></i>
+                            <h2>Erp/ Api</h2>
+                            <p>
+                                We design  this particular software to enble your business solve complex problems while allowing you focus on
+                                coer functions of your business. 
+                                <span>Other Services</span>
+                                <li><span>Hardware Services</span><br>Designing Web/App interfaces</li>
+                            <li><span>Server Support Solutions</span><br>Designing Web/App interfaces</li>
+                            <li><span>Cloud Solutions.</span><br>Designing Web/App interfaces</li>
+                            <li><span>Enterprise Development Consulting.</span><br>Designing Web/App interfaces</li>
+                            </p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+                        <!--  portfolio -->
+          <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./images/work-1.png" >
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores itaque blanditiis nemo cupiditate. Tenetur minima molestiae 
+                                perspiciatis nihil ut.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/work-2.png" >
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores itaque blanditiis nemo cupiditate. Tenetur minima molestiae 
+                                perspiciatis nihil ut.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/work-3.png" >
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores itaque blanditiis nemo cupiditate. Tenetur minima molestiae 
+                                perspiciatis nihil ut.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+            <!-- partners -->
+            <div class="container">
+                <h1 class="sub-title">Our Partners</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./images/work-1.png" >
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores itaque blanditiis nemo cupiditate. Tenetur minima molestiae 
+                                perspiciatis nihil ut.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/work-2.png" >
+                        <div class="layer">
+                            <h3>Online Shopping App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores itaque blanditiis nemo cupiditate. Tenetur minima molestiae 
+                                perspiciatis nihil ut.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/work-3.png" >
+                        <div class="layer">
+                            <h3>Music App</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores itaque blanditiis nemo cupiditate. Tenetur minima molestiae 
+                                perspiciatis nihil ut.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+          </div>
+          
+                                      <!-- contact -->
+          <div id="contact">
+            <div class="container">
+                 <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">contact me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>lionheartassociates@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>+2348138130929, </p>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="./images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright @ lionheart<i class="fa-solid fa-heart"></i>. </p>
+            </div>
+          </div>
+
+<script src="./java.js"></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxytNUrW4NNG3LFQjyAxNKzh62F_50Sl_e2ID6_41-elOoFLzGcw6ak_LPbj5QX8iwM9w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Massage sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
